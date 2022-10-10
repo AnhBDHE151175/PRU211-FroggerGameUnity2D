@@ -135,7 +135,7 @@ GameObject:
   - component: {fileID: 20032847}
   - component: {fileID: 20032846}
   - component: {fileID: 20032845}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Car2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -296,7 +296,7 @@ GameObject:
   - component: {fileID: 167943164}
   - component: {fileID: 167943163}
   - component: {fileID: 167943162}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Car3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -423,7 +423,7 @@ GameObject:
   - component: {fileID: 277863667}
   - component: {fileID: 277863666}
   - component: {fileID: 277863665}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Car1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -677,7 +677,7 @@ GameObject:
   - component: {fileID: 407911999}
   - component: {fileID: 407911998}
   - component: {fileID: 407911997}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Car2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -804,7 +804,7 @@ GameObject:
   - component: {fileID: 451455090}
   - component: {fileID: 451455089}
   - component: {fileID: 451455088}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Car4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -966,7 +966,7 @@ GameObject:
   - component: {fileID: 605338835}
   - component: {fileID: 605338834}
   - component: {fileID: 605338833}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Car1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1093,7 +1093,7 @@ GameObject:
   - component: {fileID: 725158212}
   - component: {fileID: 725158211}
   - component: {fileID: 725158210}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Car5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1220,7 +1220,7 @@ GameObject:
   - component: {fileID: 730397446}
   - component: {fileID: 730397445}
   - component: {fileID: 730397444}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Car4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1347,7 +1347,7 @@ GameObject:
   - component: {fileID: 961173597}
   - component: {fileID: 961173596}
   - component: {fileID: 961173595}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Car3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1558,7 +1558,7 @@ GameObject:
   - component: {fileID: 1006434179}
   - component: {fileID: 1006434178}
   - component: {fileID: 1006434177}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Car2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1819,6 +1819,64 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1113656058
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1113656060}
+  - component: {fileID: 1113656059}
+  m_Layer: 10
+  m_Name: Barrier
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!61 &1113656059
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1113656058}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1}
+  m_EdgeRadius: 0
+--- !u!4 &1113656060
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1113656058}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -12, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 16, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 10
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1215064799
 GameObject:
   m_ObjectHideFlags: 0
@@ -1831,7 +1889,7 @@ GameObject:
   - component: {fileID: 1215064803}
   - component: {fileID: 1215064802}
   - component: {fileID: 1215064801}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Car1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2114,6 +2172,64 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1371996469
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1371996471}
+  - component: {fileID: 1371996470}
+  m_Layer: 10
+  m_Name: Barrier (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!61 &1371996470
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1371996469}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1}
+  m_EdgeRadius: 0
+--- !u!4 &1371996471
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1371996469}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 12, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 16, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 11
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1373372848
 GameObject:
   m_ObjectHideFlags: 0
@@ -2126,7 +2242,7 @@ GameObject:
   - component: {fileID: 1373372852}
   - component: {fileID: 1373372851}
   - component: {fileID: 1373372850}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Car5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2285,7 +2401,7 @@ GameObject:
   - component: {fileID: 1514466732}
   - component: {fileID: 1514466731}
   - component: {fileID: 1514466730}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Car1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2523,7 +2639,7 @@ GameObject:
   - component: {fileID: 1723739338}
   - component: {fileID: 1723739337}
   - component: {fileID: 1723739336}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Car3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2650,7 +2766,7 @@ GameObject:
   - component: {fileID: 1813523228}
   - component: {fileID: 1813523227}
   - component: {fileID: 1813523226}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Car5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2777,7 +2893,7 @@ GameObject:
   - component: {fileID: 1907665660}
   - component: {fileID: 1907665659}
   - component: {fileID: 1907665658}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Car2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
