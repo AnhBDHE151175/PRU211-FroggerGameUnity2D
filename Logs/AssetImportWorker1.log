@@ -1,53 +1,23 @@
 Using pre-set license
-<<<<<<< HEAD
-Built from '2021.3/staging' branch; Version is '2021.3.10f1 (1c7d0df0160b) revision 1867021'; Using compiler version '192829333'; Build Type 'Release'
-OS: 'Windows 10  (10.0.19044) 64bit CoreSingleLanguage' Language: 'en' Physical Memory: 8013 MB
-=======
-<<<<<<< HEAD
 Built from '2021.3/staging' branch; Version is '2021.3.9f1 (ad3870b89536) revision 11352176'; Using compiler version '192829333'; Build Type 'Release'
 OS: 'Windows 10  (10.0.19044) 64bit Professional' Language: 'en' Physical Memory: 8064 MB
-=======
-Built from '2021.3/staging' branch; Version is '2021.3.10f1 (1c7d0df0160b) revision 1867021'; Using compiler version '192829333'; Build Type 'Release'
-OS: 'Windows 10  (10.0.19044) 64bit CoreSingleLanguage' Language: 'en' Physical Memory: 8013 MB
->>>>>>> main
->>>>>>> 1a6f14316e5e167d585cfeef403821d717539499
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
 
 COMMAND LINE ARGUMENTS:
-C:\Program Files\Unity\Hub\Editor\2021.3.10f1\Editor\Unity.exe
+C:\Program Files\Unity\Hub\Editor\2021.3.9f1\Editor\Unity.exe
 -adb2
 -batchMode
 -noUpm
 -name
 AssetImportWorker1
 -projectPath
-<<<<<<< HEAD
-D:/FPT UNIVERSITY/Semester7/PRU211m/SE1513/PROJECT/PRU211-FroggerGameUnity2D
--logFile
-Logs/AssetImportWorker1.log
--srvPort
-59264
-Successfully changed project path to: D:/FPT UNIVERSITY/Semester7/PRU211m/SE1513/PROJECT/PRU211-FroggerGameUnity2D
-D:/FPT UNIVERSITY/Semester7/PRU211m/SE1513/PROJECT/PRU211-FroggerGameUnity2D
-=======
-<<<<<<< HEAD
 C:/Users/Admin/Documents/FPT/Kỳ 7/PRU211/PRU211-FroggerGameUnity2D
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-51639
+49995
 Successfully changed project path to: C:/Users/Admin/Documents/FPT/Kỳ 7/PRU211/PRU211-FroggerGameUnity2D
 C:/Users/Admin/Documents/FPT/Kỳ 7/PRU211/PRU211-FroggerGameUnity2D
-=======
-D:/FPT UNIVERSITY/Semester7/PRU211m/SE1513/PROJECT/PRU211-FroggerGameUnity2D
--logFile
-Logs/AssetImportWorker1.log
--srvPort
-63335
-Successfully changed project path to: D:/FPT UNIVERSITY/Semester7/PRU211m/SE1513/PROJECT/PRU211-FroggerGameUnity2D
-D:/FPT UNIVERSITY/Semester7/PRU211m/SE1513/PROJECT/PRU211-FroggerGameUnity2D
->>>>>>> main
->>>>>>> 1a6f14316e5e167d585cfeef403821d717539499
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-bucket-allocator-granularity=16"
     "memorysetup-bucket-allocator-bucket-count=8"
@@ -77,39 +47,7 @@ D:/FPT UNIVERSITY/Semester7/PRU211m/SE1513/PROJECT/PRU211-FroggerGameUnity2D
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-<<<<<<< HEAD
-Refreshing native plugins compatible for Editor in 132.12 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Initialize engine version: 2021.3.10f1 (1c7d0df0160b)
-[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.10f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path D:/FPT UNIVERSITY/Semester7/PRU211m/SE1513/PROJECT/PRU211-FroggerGameUnity2D/Assets
-GfxDevice: creating device client; threaded=0; jobified=0
-Direct3D:
-    Version:  Direct3D 11.0 [level 11.1]
-    Renderer: NVIDIA GeForce GTX 1650 Ti with Max-Q Design (ID=0x1f95)
-    Vendor:   NVIDIA
-    VRAM:     3962 MB
-    Driver:   27.21.14.6221
-Initialize mono
-Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.10f1/Editor/Data/Managed'
-Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.10f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
-Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.10f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56128
-Begin MonoManager ReloadAssembly
-Registering precompiled unity dll's ...
-Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.10f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.011214 seconds.
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 111.46 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.622 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1623ms)
-		BeginReloadAssembly (224ms)
-=======
-<<<<<<< HEAD
-Refreshing native plugins compatible for Editor in 243.21 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 277.23 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.9f1 (ad3870b89536)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.9f1/Editor/Data/Resources/UnitySubsystems
@@ -125,729 +63,752 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.9f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.9f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.9f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56320
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56516
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.9f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.9f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.028028 seconds.
+Registered in 0.028291 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 395.23 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 336.45 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.297 seconds
+- Completed reload, in  2.279 seconds
 Domain Reload Profiling:
-	ReloadAssembly (2298ms)
-		BeginReloadAssembly (209ms)
-=======
-Refreshing native plugins compatible for Editor in 85.90 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Initialize engine version: 2021.3.10f1 (1c7d0df0160b)
-[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.10f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path D:/FPT UNIVERSITY/Semester7/PRU211m/SE1513/PROJECT/PRU211-FroggerGameUnity2D/Assets
-GfxDevice: creating device client; threaded=0; jobified=0
-Direct3D:
-    Version:  Direct3D 11.0 [level 11.1]
-    Renderer: NVIDIA GeForce GTX 1650 Ti with Max-Q Design (ID=0x1f95)
-    Vendor:   NVIDIA
-    VRAM:     3962 MB
-    Driver:   27.21.14.6221
-Initialize mono
-Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.10f1/Editor/Data/Managed'
-Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.10f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
-Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.10f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56272
-Begin MonoManager ReloadAssembly
-Registering precompiled unity dll's ...
-Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.10f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.007272 seconds.
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 87.32 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.643 seconds
-Domain Reload Profiling:
-	ReloadAssembly (643ms)
-		BeginReloadAssembly (92ms)
->>>>>>> main
->>>>>>> 1a6f14316e5e167d585cfeef403821d717539499
+	ReloadAssembly (2280ms)
+		BeginReloadAssembly (216ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-<<<<<<< HEAD
-			CreateAndSetChildDomain (6ms)
-		EndReloadAssembly (1049ms)
-			LoadAssemblies (212ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (392ms)
-			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (44ms)
-			SetupLoadedEditorAssemblies (520ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (10ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (112ms)
-				BeforeProcessingInitializeOnLoad (2ms)
-				ProcessInitializeOnLoadAttributes (300ms)
-				ProcessInitializeOnLoadMethodAttributes (97ms)
-=======
-<<<<<<< HEAD
 			CreateAndSetChildDomain (2ms)
-		EndReloadAssembly (1767ms)
-			LoadAssemblies (203ms)
+		EndReloadAssembly (1700ms)
+			LoadAssemblies (211ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (313ms)
+			SetupTypeCache (416ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (186ms)
-			SetupLoadedEditorAssemblies (1111ms)
+			RebuildScriptCaches (117ms)
+			SetupLoadedEditorAssemblies (1014ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (24ms)
+				InitializePlatformSupportModulesInManaged (32ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (395ms)
-				BeforeProcessingInitializeOnLoad (3ms)
-				ProcessInitializeOnLoadAttributes (528ms)
-				ProcessInitializeOnLoadMethodAttributes (159ms)
-=======
-			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (442ms)
-			LoadAssemblies (90ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (109ms)
-			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (27ms)
-			SetupLoadedEditorAssemblies (252ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (7ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (87ms)
-				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (114ms)
-				ProcessInitializeOnLoadMethodAttributes (43ms)
->>>>>>> main
->>>>>>> 1a6f14316e5e167d585cfeef403821d717539499
-				AfterProcessingInitializeOnLoad (0ms)
+				RefreshPlugins (337ms)
+				BeforeProcessingInitializeOnLoad (2ms)
+				ProcessInitializeOnLoadAttributes (455ms)
+				ProcessInitializeOnLoadMethodAttributes (185ms)
+				AfterProcessingInitializeOnLoad (1ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-<<<<<<< HEAD
-Registered in 0.010637 seconds.
+Registered in 0.023947 seconds.
 Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\Admin\Documents\FPT\Kỳ 7\PRU211\PRU211-FroggerGameUnity2D\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Admin\Documents\FPT\Kỳ 7\PRU211\PRU211-FroggerGameUnity2D\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 163.55 ms, found 4 plugins.
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 235.80 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.993 seconds
+- Completed reload, in  3.426 seconds
 Domain Reload Profiling:
-	ReloadAssembly (2994ms)
-		BeginReloadAssembly (335ms)
+	ReloadAssembly (3427ms)
+		BeginReloadAssembly (328ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (17ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (45ms)
+		EndReloadAssembly (2733ms)
+			LoadAssemblies (256ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (871ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (152ms)
+			SetupLoadedEditorAssemblies (1304ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (13ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (236ms)
+				BeforeProcessingInitializeOnLoad (284ms)
+				ProcessInitializeOnLoadAttributes (622ms)
+				ProcessInitializeOnLoadMethodAttributes (123ms)
+				AfterProcessingInitializeOnLoad (25ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (24ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.15 seconds
+Refreshing native plugins compatible for Editor in 1.56 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4118 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 38 unused Assets / (55.7 KB). Loaded Objects now: 4574.
+Memory consumption went from 153.4 MB to 153.3 MB.
+Total: 10.096100 ms (FindLiveObjects: 0.562200 ms CreateObjectMapping: 0.580400 ms MarkObjects: 8.368800 ms  DeleteObjects: 0.581800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 49867.844568 seconds.
+  path: Assets/Sprites/FroggerIdle.png
+  artifactKey: Guid(d640f1f26c23de64fba66468197b17b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/FroggerIdle.png using Guid(d640f1f26c23de64fba66468197b17b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8f4eeef15112ed1f670e1814f646a14') in 0.659189 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/Sprites/Car1.png
+  artifactKey: Guid(8a5caa8564e70b14083414cbaf941af4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Car1.png using Guid(8a5caa8564e70b14083414cbaf941af4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f32cb324da0cf8620cb7efbc5ca8413') in 0.059926 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.004232 seconds.
+  path: Assets/Sprites/Car5.png
+  artifactKey: Guid(22c68b10a1db9ce4aa95ce8237e4f015) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Car5.png using Guid(22c68b10a1db9ce4aa95ce8237e4f015) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ef24b62adeb37bcb1d9ea118d81a79b') in 0.065726 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Sprites/FroggerDead.png
+  artifactKey: Guid(4c0cca2e3e370fa45a7e2ab4c9340d43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/FroggerDead.png using Guid(4c0cca2e3e370fa45a7e2ab4c9340d43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76c3031bd2907b88e681e1695167a4d6') in 0.156444 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Prefabs/Turle2.prefab
+  artifactKey: Guid(0c7061df9d7d89b48aefed3c51820a15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Turle2.prefab using Guid(0c7061df9d7d89b48aefed3c51820a15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b89d9cfae9ed2e2d84337fbabb20c3be') in 0.273711 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000428 seconds.
+  path: Assets/Sprites/LogMiddle.png
+  artifactKey: Guid(dd890041414e2d9448703945dfe893bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/LogMiddle.png using Guid(dd890041414e2d9448703945dfe893bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c6924eba297fe50278ff585f3152cd8') in 0.113210 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Sprites/Median.png
+  artifactKey: Guid(bdf5753146428474c8471a523e23e4e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Median.png using Guid(bdf5753146428474c8471a523e23e4e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9215ec493dcd77ba985eaa5df0cfd719') in 0.087354 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000258 seconds.
+  path: Assets/Prefabs/Turtle.prefab
+  artifactKey: Guid(872dc69bd0b08f94a9ec53c78ddbd10e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Turtle.prefab using Guid(872dc69bd0b08f94a9ec53c78ddbd10e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6027c7ba845e4c434aafe8834dc77c45') in 0.115377 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000060 seconds.
+  path: Assets/Sprites/Car3.png
+  artifactKey: Guid(8281c196b49e31542a92cc2e676c7a61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Car3.png using Guid(8281c196b49e31542a92cc2e676c7a61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a8dce237e3cea8ac8f57e76ac7fecf1') in 0.091068 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001745 seconds.
+  path: Assets/Scenes/MainScene.unity
+  artifactKey: Guid(0800860fab8b55c4bb043e9502a24ef7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainScene.unity using Guid(0800860fab8b55c4bb043e9502a24ef7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ccf8013a61f950f70f487ed56fcb88e') in 0.041788 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/Sprites/Turtle_02.png
+  artifactKey: Guid(c22236cc9ddb420448b5ac9c08f7fe44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Turtle_02.png using Guid(c22236cc9ddb420448b5ac9c08f7fe44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd32e885ce43040541a6d2fd05d616778') in 0.168958 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000120 seconds.
+  path: Assets/Prefabs/Log6.prefab
+  artifactKey: Guid(3cda991360b943f4ead7b8bc3f03d250) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Log6.prefab using Guid(3cda991360b943f4ead7b8bc3f03d250) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e05e3455b8ecb4168633afd86e2d8fc2') in 0.101312 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.017320 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\Admin\Documents\FPT\Kỳ 7\PRU211\PRU211-FroggerGameUnity2D\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Admin\Documents\FPT\Kỳ 7\PRU211\PRU211-FroggerGameUnity2D\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 3.22 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in 10.527 seconds
+Domain Reload Profiling:
+	ReloadAssembly (10530ms)
+		BeginReloadAssembly (849ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (162ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (255ms)
+		EndReloadAssembly (9060ms)
+			LoadAssemblies (491ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (2298ms)
+			ReleaseScriptCaches (28ms)
+			RebuildScriptCaches (851ms)
+			SetupLoadedEditorAssemblies (4543ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (152ms)
+				SetLoadedEditorAssemblies (2ms)
+				RefreshPlugins (3ms)
+				BeforeProcessingInitializeOnLoad (1078ms)
+				ProcessInitializeOnLoadAttributes (3106ms)
+				ProcessInitializeOnLoadMethodAttributes (158ms)
+				AfterProcessingInitializeOnLoad (42ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (94ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 21.01 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4107 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 25 unused Assets / (24.7 KB). Loaded Objects now: 4589.
+Memory consumption went from 157.2 MB to 157.1 MB.
+Total: 4.625100 ms (FindLiveObjects: 0.342400 ms CreateObjectMapping: 0.306200 ms MarkObjects: 3.940600 ms  DeleteObjects: 0.034300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.492346 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\Admin\Documents\FPT\Kỳ 7\PRU211\PRU211-FroggerGameUnity2D\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Admin\Documents\FPT\Kỳ 7\PRU211\PRU211-FroggerGameUnity2D\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.69 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.959 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2960ms)
+		BeginReloadAssembly (378ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (20ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (99ms)
+		EndReloadAssembly (2248ms)
+			LoadAssemblies (257ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (697ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (133ms)
+			SetupLoadedEditorAssemblies (1059ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (54ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (238ms)
+				ProcessInitializeOnLoadAttributes (628ms)
+				ProcessInitializeOnLoadMethodAttributes (114ms)
+				AfterProcessingInitializeOnLoad (21ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (27ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 13.42 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4108 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 25 unused Assets / (24.7 KB). Loaded Objects now: 4593.
+Memory consumption went from 157.2 MB to 157.2 MB.
+Total: 5.931100 ms (FindLiveObjects: 1.080800 ms CreateObjectMapping: 0.708900 ms MarkObjects: 4.088700 ms  DeleteObjects: 0.050400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.018271 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\Admin\Documents\FPT\Kỳ 7\PRU211\PRU211-FroggerGameUnity2D\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Admin\Documents\FPT\Kỳ 7\PRU211\PRU211-FroggerGameUnity2D\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.52 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.344 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2345ms)
+		BeginReloadAssembly (254ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (16ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (73ms)
+		EndReloadAssembly (1829ms)
+			LoadAssemblies (211ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (535ms)
+			ReleaseScriptCaches (3ms)
+			RebuildScriptCaches (109ms)
+			SetupLoadedEditorAssemblies (842ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (29ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (193ms)
+				ProcessInitializeOnLoadAttributes (504ms)
+				ProcessInitializeOnLoadMethodAttributes (98ms)
+				AfterProcessingInitializeOnLoad (15ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (22ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 10.22 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4107 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 26 unused Assets / (24.8 KB). Loaded Objects now: 4595.
+Memory consumption went from 157.2 MB to 157.2 MB.
+Total: 6.844100 ms (FindLiveObjects: 1.022000 ms CreateObjectMapping: 0.384600 ms MarkObjects: 5.389100 ms  DeleteObjects: 0.046700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 160.026809 seconds.
+  path: Assets/Prefabs/GameObject.prefab
+  artifactKey: Guid(4b4c4b7786a88054b8517558b5719cdb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/GameObject.prefab using Guid(4b4c4b7786a88054b8517558b5719cdb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd003f898b078874a0cf5b938af0bf08e') in 0.098779 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.017827 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\Admin\Documents\FPT\Kỳ 7\PRU211\PRU211-FroggerGameUnity2D\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Admin\Documents\FPT\Kỳ 7\PRU211\PRU211-FroggerGameUnity2D\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 2.34 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  4.742 seconds
+Domain Reload Profiling:
+	ReloadAssembly (4743ms)
+		BeginReloadAssembly (559ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (31ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (155ms)
+		EndReloadAssembly (3649ms)
+			LoadAssemblies (444ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (1116ms)
+			ReleaseScriptCaches (8ms)
+			RebuildScriptCaches (260ms)
+			SetupLoadedEditorAssemblies (1604ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (54ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (377ms)
+				ProcessInitializeOnLoadAttributes (951ms)
+				ProcessInitializeOnLoadMethodAttributes (182ms)
+				AfterProcessingInitializeOnLoad (37ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (45ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 17.90 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4107 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 25 unused Assets / (24.6 KB). Loaded Objects now: 4598.
+Memory consumption went from 157.2 MB to 157.2 MB.
+Total: 10.830900 ms (FindLiveObjects: 0.831600 ms CreateObjectMapping: 1.116000 ms MarkObjects: 8.826000 ms  DeleteObjects: 0.055100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.016838 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\Admin\Documents\FPT\Kỳ 7\PRU211\PRU211-FroggerGameUnity2D\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Admin\Documents\FPT\Kỳ 7\PRU211\PRU211-FroggerGameUnity2D\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 4.32 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  4.847 seconds
+Domain Reload Profiling:
+	ReloadAssembly (4858ms)
+		BeginReloadAssembly (632ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (32ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (174ms)
+		EndReloadAssembly (3712ms)
+			LoadAssemblies (451ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (1223ms)
+			ReleaseScriptCaches (4ms)
+			RebuildScriptCaches (207ms)
+			SetupLoadedEditorAssemblies (1559ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (65ms)
+				SetLoadedEditorAssemblies (2ms)
+				RefreshPlugins (4ms)
+				BeforeProcessingInitializeOnLoad (364ms)
+				ProcessInitializeOnLoadAttributes (928ms)
+				ProcessInitializeOnLoadMethodAttributes (158ms)
+				AfterProcessingInitializeOnLoad (36ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (39ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 7.19 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4107 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 25 unused Assets / (24.7 KB). Loaded Objects now: 4601.
+Memory consumption went from 157.2 MB to 157.2 MB.
+Total: 4.987700 ms (FindLiveObjects: 0.349400 ms CreateObjectMapping: 0.310800 ms MarkObjects: 4.291100 ms  DeleteObjects: 0.035000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.028368 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\Admin\Documents\FPT\Kỳ 7\PRU211\PRU211-FroggerGameUnity2D\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Admin\Documents\FPT\Kỳ 7\PRU211\PRU211-FroggerGameUnity2D\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 3.59 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  4.729 seconds
+Domain Reload Profiling:
+	ReloadAssembly (4731ms)
+		BeginReloadAssembly (613ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (29ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (159ms)
+		EndReloadAssembly (3602ms)
+			LoadAssemblies (455ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (1215ms)
+			ReleaseScriptCaches (4ms)
+			RebuildScriptCaches (370ms)
+			SetupLoadedEditorAssemblies (1336ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (71ms)
+				SetLoadedEditorAssemblies (2ms)
+				RefreshPlugins (4ms)
+				BeforeProcessingInitializeOnLoad (206ms)
+				ProcessInitializeOnLoadAttributes (853ms)
+				ProcessInitializeOnLoadMethodAttributes (164ms)
+				AfterProcessingInitializeOnLoad (36ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (57ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 46.34 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4107 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 25 unused Assets / (24.6 KB). Loaded Objects now: 4604.
+Memory consumption went from 157.2 MB to 157.2 MB.
+Total: 7.563900 ms (FindLiveObjects: 0.387800 ms CreateObjectMapping: 0.360900 ms MarkObjects: 6.712300 ms  DeleteObjects: 0.098700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.028108 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\Admin\Documents\FPT\Kỳ 7\PRU211\PRU211-FroggerGameUnity2D\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Admin\Documents\FPT\Kỳ 7\PRU211\PRU211-FroggerGameUnity2D\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 3.00 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  5.200 seconds
+Domain Reload Profiling:
+	ReloadAssembly (5202ms)
+		BeginReloadAssembly (699ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (39ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (163ms)
+		EndReloadAssembly (3965ms)
+			LoadAssemblies (415ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (1206ms)
+			ReleaseScriptCaches (4ms)
+			RebuildScriptCaches (221ms)
+			SetupLoadedEditorAssemblies (1784ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (56ms)
+				SetLoadedEditorAssemblies (4ms)
+				RefreshPlugins (3ms)
+				BeforeProcessingInitializeOnLoad (456ms)
+				ProcessInitializeOnLoadAttributes (1042ms)
+				ProcessInitializeOnLoadMethodAttributes (178ms)
+				AfterProcessingInitializeOnLoad (45ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (65ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 33.13 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4107 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 25 unused Assets / (24.7 KB). Loaded Objects now: 4607.
+Memory consumption went from 157.2 MB to 157.2 MB.
+Total: 66.575700 ms (FindLiveObjects: 1.046300 ms CreateObjectMapping: 0.647900 ms MarkObjects: 64.821700 ms  DeleteObjects: 0.057800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 155.213327 seconds.
+  path: Assets/Prefabs/Turtle.prefab
+  artifactKey: Guid(872dc69bd0b08f94a9ec53c78ddbd10e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Turtle.prefab using Guid(872dc69bd0b08f94a9ec53c78ddbd10e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9615965d40a13589bcfd33d549a4fec1') in 0.219377 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 37.223587 seconds.
+  path: Assets/Prefabs/Turle2.prefab
+  artifactKey: Guid(0c7061df9d7d89b48aefed3c51820a15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Turle2.prefab using Guid(0c7061df9d7d89b48aefed3c51820a15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '329c29b8ebb9843663b2403866a38da7') in 0.045597 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.015734 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\Admin\Documents\FPT\Kỳ 7\PRU211\PRU211-FroggerGameUnity2D\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Admin\Documents\FPT\Kỳ 7\PRU211\PRU211-FroggerGameUnity2D\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.03 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.359 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2361ms)
+		BeginReloadAssembly (516ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (17ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (183ms)
+		EndReloadAssembly (1633ms)
+			LoadAssemblies (307ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (476ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (92ms)
+			SetupLoadedEditorAssemblies (740ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (27ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (154ms)
+				ProcessInitializeOnLoadAttributes (411ms)
+				ProcessInitializeOnLoadMethodAttributes (113ms)
+				AfterProcessingInitializeOnLoad (32ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (37ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 27.68 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4107 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 25 unused Assets / (24.7 KB). Loaded Objects now: 4610.
+Memory consumption went from 157.2 MB to 157.2 MB.
+Total: 52.985300 ms (FindLiveObjects: 1.851200 ms CreateObjectMapping: 0.768700 ms MarkObjects: 50.297600 ms  DeleteObjects: 0.065200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.010162 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\Admin\Documents\FPT\Kỳ 7\PRU211\PRU211-FroggerGameUnity2D\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Admin\Documents\FPT\Kỳ 7\PRU211\PRU211-FroggerGameUnity2D\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 2.17 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  4.239 seconds
+Domain Reload Profiling:
+	ReloadAssembly (4241ms)
+		BeginReloadAssembly (555ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (27ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (135ms)
+		EndReloadAssembly (3225ms)
+			LoadAssemblies (432ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (919ms)
+			ReleaseScriptCaches (4ms)
+			RebuildScriptCaches (230ms)
+			SetupLoadedEditorAssemblies (1537ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (50ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (318ms)
+				ProcessInitializeOnLoadAttributes (934ms)
+				ProcessInitializeOnLoadMethodAttributes (207ms)
+				AfterProcessingInitializeOnLoad (24ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (37ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 18.62 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4107 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 25 unused Assets / (24.7 KB). Loaded Objects now: 4613.
+Memory consumption went from 157.2 MB to 157.2 MB.
+Total: 17.327400 ms (FindLiveObjects: 1.081200 ms CreateObjectMapping: 0.815400 ms MarkObjects: 15.324800 ms  DeleteObjects: 0.103700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.033226 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\Admin\Documents\FPT\Kỳ 7\PRU211\PRU211-FroggerGameUnity2D\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Admin\Documents\FPT\Kỳ 7\PRU211\PRU211-FroggerGameUnity2D\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 15.08 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  5.808 seconds
+Domain Reload Profiling:
+	ReloadAssembly (5810ms)
+		BeginReloadAssembly (300ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (15ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (50ms)
-		EndReloadAssembly (2103ms)
-			LoadAssemblies (258ms)
+			CreateAndSetChildDomain (99ms)
+		EndReloadAssembly (5012ms)
+			LoadAssemblies (446ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (445ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (138ms)
-			SetupLoadedEditorAssemblies (1275ms)
+			SetupTypeCache (1560ms)
+			ReleaseScriptCaches (9ms)
+			RebuildScriptCaches (195ms)
+			SetupLoadedEditorAssemblies (2279ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (10ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (164ms)
-				BeforeProcessingInitializeOnLoad (182ms)
-				ProcessInitializeOnLoadAttributes (813ms)
-				ProcessInitializeOnLoadMethodAttributes (92ms)
-				AfterProcessingInitializeOnLoad (13ms)
-				EditorAssembliesLoaded (1ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (10ms)
-Platform modules already initialized, skipping
-========================================================================
-Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
-Refreshing native plugins compatible for Editor in 1.92 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4070 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 38 unused Assets / (56.1 KB). Loaded Objects now: 4526.
-Memory consumption went from 152.6 MB to 152.5 MB.
-Total: 7.277700 ms (FindLiveObjects: 0.742700 ms CreateObjectMapping: 1.107600 ms MarkObjects: 5.306100 ms  DeleteObjects: 0.119700 ms)
-=======
-<<<<<<< HEAD
-Registered in 0.019344 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\Admin\Documents\FPT\Kỳ 7\PRU211\PRU211-FroggerGameUnity2D\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\Admin\Documents\FPT\Kỳ 7\PRU211\PRU211-FroggerGameUnity2D\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 250.97 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  4.025 seconds
-Domain Reload Profiling:
-	ReloadAssembly (4026ms)
-		BeginReloadAssembly (390ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (21ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (47ms)
-		EndReloadAssembly (3290ms)
-			LoadAssemblies (225ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (1172ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (250ms)
-			SetupLoadedEditorAssemblies (1345ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (19ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (251ms)
-				BeforeProcessingInitializeOnLoad (273ms)
-				ProcessInitializeOnLoadAttributes (638ms)
-				ProcessInitializeOnLoadMethodAttributes (140ms)
-				AfterProcessingInitializeOnLoad (23ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (14ms)
-Platform modules already initialized, skipping
-========================================================================
-Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.26 seconds
-Refreshing native plugins compatible for Editor in 4.53 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4070 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 38 unused Assets / (55.4 KB). Loaded Objects now: 4526.
-Memory consumption went from 151.3 MB to 151.3 MB.
-Total: 34.216800 ms (FindLiveObjects: 0.669100 ms CreateObjectMapping: 1.276900 ms MarkObjects: 31.817500 ms  DeleteObjects: 0.451700 ms)
-=======
-Registered in 0.005260 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image D:\FPT UNIVERSITY\Semester7\PRU211m\SE1513\PROJECT\PRU211-FroggerGameUnity2D\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image D:\FPT UNIVERSITY\Semester7\PRU211m\SE1513\PROJECT\PRU211-FroggerGameUnity2D\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 84.09 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.114 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1114ms)
-		BeginReloadAssembly (134ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (6ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (24ms)
-		EndReloadAssembly (859ms)
-			LoadAssemblies (104ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (221ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (51ms)
-			SetupLoadedEditorAssemblies (461ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (4ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (84ms)
-				BeforeProcessingInitializeOnLoad (88ms)
-				ProcessInitializeOnLoadAttributes (234ms)
-				ProcessInitializeOnLoadMethodAttributes (43ms)
-				AfterProcessingInitializeOnLoad (8ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (5ms)
-Platform modules already initialized, skipping
-========================================================================
-Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
-Refreshing native plugins compatible for Editor in 1.62 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4069 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 38 unused Assets / (56.1 KB). Loaded Objects now: 4525.
-Memory consumption went from 152.5 MB to 152.5 MB.
-Total: 4.283000 ms (FindLiveObjects: 0.333800 ms CreateObjectMapping: 0.366400 ms MarkObjects: 3.516500 ms  DeleteObjects: 0.065500 ms)
->>>>>>> main
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-<<<<<<< HEAD
-  Time since last request: 171949.878687 seconds.
-  path: Assets/Sprites/FroggerLeap.png
-  artifactKey: Guid(303cadb738bee5b48a8fe0636fa53ee7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/FroggerLeap.png using Guid(303cadb738bee5b48a8fe0636fa53ee7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43c06af9a72e8bd547e09853d3fe7359') in 0.585775 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000035 seconds.
-  path: Assets/Sprites/Home.png
-  artifactKey: Guid(b8019f1f7fc87cd44baf59f1e1c8e08f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Home.png using Guid(b8019f1f7fc87cd44baf59f1e1c8e08f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8258e6bbf7713c6a23c0d37a2ef7c7e') in 0.070117 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000388 seconds.
-  path: Assets/Sprites/Road.png
-  artifactKey: Guid(1da449ea8060c4146bdf523855424153) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Road.png using Guid(1da449ea8060c4146bdf523855424153) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef249488729ce7f0a405d07d3ef76e21') in 0.070735 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.003143 seconds.
-  path: Assets/Sprites/Median.png
-  artifactKey: Guid(bdf5753146428474c8471a523e23e4e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Median.png using Guid(bdf5753146428474c8471a523e23e4e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9215ec493dcd77ba985eaa5df0cfd719') in 0.052899 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.009400 seconds.
-  path: Assets/Scenes/SampleScene.unity
-  artifactKey: Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/SampleScene.unity using Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0fef05ffba8f24a6ebd07b6e15b6d370') in 0.028293 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000638 seconds.
-  path: Assets/Sprites/LogStart.png
-  artifactKey: Guid(8aeaedde5b656804f9519ffd7f6c9bf3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/LogStart.png using Guid(8aeaedde5b656804f9519ffd7f6c9bf3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9add3c45fff4b28175a024d6229268e') in 0.073572 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.029076 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\Admin\Documents\FPT\Kỳ 7\PRU211\PRU211-FroggerGameUnity2D\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\Admin\Documents\FPT\Kỳ 7\PRU211\PRU211-FroggerGameUnity2D\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.90 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  6.956 seconds
-Domain Reload Profiling:
-	ReloadAssembly (6958ms)
-		BeginReloadAssembly (833ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (113ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (198ms)
-		EndReloadAssembly (5479ms)
-			LoadAssemblies (475ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (883ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (214ms)
-			SetupLoadedEditorAssemblies (3741ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (45ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (1816ms)
-				ProcessInitializeOnLoadAttributes (1264ms)
-				ProcessInitializeOnLoadMethodAttributes (569ms)
-				AfterProcessingInitializeOnLoad (44ms)
+				InitializePlatformSupportModulesInManaged (66ms)
+				SetLoadedEditorAssemblies (4ms)
+				RefreshPlugins (15ms)
+				BeforeProcessingInitializeOnLoad (342ms)
+				ProcessInitializeOnLoadAttributes (990ms)
+				ProcessInitializeOnLoadMethodAttributes (300ms)
+				AfterProcessingInitializeOnLoad (561ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (34ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 13.92 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 31.32 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4060 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 25 unused Assets / (24.7 KB). Loaded Objects now: 4538.
-Memory consumption went from 155.1 MB to 155.1 MB.
-Total: 19.485300 ms (FindLiveObjects: 0.519100 ms CreateObjectMapping: 0.351800 ms MarkObjects: 18.550600 ms  DeleteObjects: 0.062000 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.057673 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\Admin\Documents\FPT\Kỳ 7\PRU211\PRU211-FroggerGameUnity2D\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\Admin\Documents\FPT\Kỳ 7\PRU211\PRU211-FroggerGameUnity2D\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 1.00 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  3.091 seconds
-Domain Reload Profiling:
-	ReloadAssembly (3094ms)
-		BeginReloadAssembly (415ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (40ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (93ms)
-		EndReloadAssembly (2364ms)
-			LoadAssemblies (299ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (951ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (92ms)
-			SetupLoadedEditorAssemblies (914ms)
-=======
-  Time since last request: 17088.709817 seconds.
-  path: Assets/Sprites/Car2.png
-  artifactKey: Guid(3347be1a37ede9849970401ae0d26021) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Car2.png using Guid(3347be1a37ede9849970401ae0d26021) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2fe2f427acb45b50ad83ea567fb65a66') in 0.172363 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/Sprites/Car5.png
-  artifactKey: Guid(22c68b10a1db9ce4aa95ce8237e4f015) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Car5.png using Guid(22c68b10a1db9ce4aa95ce8237e4f015) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab24296248529247aa4ca2fb96b0e359') in 0.029481 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000055 seconds.
-  path: Assets/Sprites/HomeFrog.png
-  artifactKey: Guid(584bba646f49fbc47a50163ce7618525) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/HomeFrog.png using Guid(584bba646f49fbc47a50163ce7618525) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58a79859b7cbb7eaa713009aaf794415') in 0.030851 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Assets/Sprites/Home.png
-  artifactKey: Guid(b8019f1f7fc87cd44baf59f1e1c8e08f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Home.png using Guid(b8019f1f7fc87cd44baf59f1e1c8e08f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed762a03f0f2594ad9f94198fe4fe6c1') in 0.028205 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000054 seconds.
-  path: Assets/Sprites/Car4.png
-  artifactKey: Guid(f1b5d639adcced5479ad643365ae3ab8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Car4.png using Guid(f1b5d639adcced5479ad643365ae3ab8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6449a6ea8a45d92c31c5f413578b7a1a') in 0.023348 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000058 seconds.
-  path: Assets/Sprites/LogEnd.png
-  artifactKey: Guid(6f0268005d80d004e85ca62fe2e2f2a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/LogEnd.png using Guid(6f0268005d80d004e85ca62fe2e2f2a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f153fdf63344fe579afd2faba6ab1fc8') in 0.022407 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.694537 seconds.
-  path: Assets/Sprites/Median.png
-  artifactKey: Guid(bdf5753146428474c8471a523e23e4e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Median.png using Guid(bdf5753146428474c8471a523e23e4e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c054667c1eebabf76fbb18e8591edaac') in 0.024490 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.027887 seconds.
-  path: Assets/Sprites/Turtle_01.png
-  artifactKey: Guid(3d77c63c31ec73746be9ad74f96feccc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Turtle_01.png using Guid(3d77c63c31ec73746be9ad74f96feccc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1bfceae2299e0a6d4aa0c65f1ed3f9dc') in 0.028111 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000038 seconds.
-  path: Assets/Sprites/Turtle_02.png
-  artifactKey: Guid(c22236cc9ddb420448b5ac9c08f7fe44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Turtle_02.png using Guid(c22236cc9ddb420448b5ac9c08f7fe44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b31918050a8cc1c727bc88de11c40bc3') in 0.023832 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.006113 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image D:\FPT UNIVERSITY\Semester7\PRU211m\SE1513\PROJECT\PRU211-FroggerGameUnity2D\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image D:\FPT UNIVERSITY\Semester7\PRU211m\SE1513\PROJECT\PRU211-FroggerGameUnity2D\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 2.23 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.914 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1915ms)
-		BeginReloadAssembly (146ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (7ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (49ms)
-		EndReloadAssembly (1616ms)
-			LoadAssemblies (103ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (553ms)
-			ReleaseScriptCaches (5ms)
-			RebuildScriptCaches (124ms)
-			SetupLoadedEditorAssemblies (668ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (18ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (2ms)
-				BeforeProcessingInitializeOnLoad (136ms)
-				ProcessInitializeOnLoadAttributes (424ms)
-				ProcessInitializeOnLoadMethodAttributes (76ms)
-				AfterProcessingInitializeOnLoad (11ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (16ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 2.96 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4058 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 25 unused Assets / (24.6 KB). Loaded Objects now: 4538.
-Memory consumption went from 156.2 MB to 156.2 MB.
-Total: 5.212400 ms (FindLiveObjects: 0.668600 ms CreateObjectMapping: 0.834200 ms MarkObjects: 3.646600 ms  DeleteObjects: 0.060800 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.004634 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image D:\FPT UNIVERSITY\Semester7\PRU211m\SE1513\PROJECT\PRU211-FroggerGameUnity2D\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image D:\FPT UNIVERSITY\Semester7\PRU211m\SE1513\PROJECT\PRU211-FroggerGameUnity2D\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.73 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.061 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1062ms)
-		BeginReloadAssembly (122ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (7ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (37ms)
-		EndReloadAssembly (841ms)
-			LoadAssemblies (79ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (348ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (42ms)
-			SetupLoadedEditorAssemblies (320ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (11ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (70ms)
-				ProcessInitializeOnLoadAttributes (195ms)
-				ProcessInitializeOnLoadMethodAttributes (36ms)
-				AfterProcessingInitializeOnLoad (7ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (8ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.87 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4059 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 25 unused Assets / (24.6 KB). Loaded Objects now: 4542.
-Memory consumption went from 156.3 MB to 156.2 MB.
-Total: 3.783300 ms (FindLiveObjects: 0.335300 ms CreateObjectMapping: 0.236700 ms MarkObjects: 3.156600 ms  DeleteObjects: 0.053100 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.007128 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image D:\FPT UNIVERSITY\Semester7\PRU211m\SE1513\PROJECT\PRU211-FroggerGameUnity2D\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image D:\FPT UNIVERSITY\Semester7\PRU211m\SE1513\PROJECT\PRU211-FroggerGameUnity2D\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.77 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.381 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1382ms)
-		BeginReloadAssembly (132ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (6ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (40ms)
-		EndReloadAssembly (1157ms)
-			LoadAssemblies (95ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (397ms)
-			ReleaseScriptCaches (3ms)
-			RebuildScriptCaches (78ms)
-			SetupLoadedEditorAssemblies (496ms)
->>>>>>> main
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (28ms)
-				SetLoadedEditorAssemblies (1ms)
-<<<<<<< HEAD
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (186ms)
-				ProcessInitializeOnLoadAttributes (566ms)
-				ProcessInitializeOnLoadMethodAttributes (111ms)
-				AfterProcessingInitializeOnLoad (21ms)
-=======
-				RefreshPlugins (2ms)
-				BeforeProcessingInitializeOnLoad (106ms)
-				ProcessInitializeOnLoadAttributes (297ms)
-				ProcessInitializeOnLoadMethodAttributes (63ms)
-				AfterProcessingInitializeOnLoad (10ms)
->>>>>>> main
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (19ms)
-Platform modules already initialized, skipping
-<<<<<<< HEAD
-Refreshing native plugins compatible for Editor in 128.83 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4060 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 25 unused Assets / (24.7 KB). Loaded Objects now: 4541.
-Memory consumption went from 155.1 MB to 155.1 MB.
-Total: 12.054900 ms (FindLiveObjects: 0.914000 ms CreateObjectMapping: 0.855700 ms MarkObjects: 10.224300 ms  DeleteObjects: 0.058800 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.056411 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\Admin\Documents\FPT\Kỳ 7\PRU211\PRU211-FroggerGameUnity2D\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\Admin\Documents\FPT\Kỳ 7\PRU211\PRU211-FroggerGameUnity2D\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 1.67 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  2.337 seconds
-Domain Reload Profiling:
-	ReloadAssembly (2338ms)
-		BeginReloadAssembly (472ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (46ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (156ms)
-		EndReloadAssembly (1589ms)
-			LoadAssemblies (261ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (483ms)
-			ReleaseScriptCaches (3ms)
-			RebuildScriptCaches (118ms)
-			SetupLoadedEditorAssemblies (685ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (28ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (2ms)
-				BeforeProcessingInitializeOnLoad (152ms)
-				ProcessInitializeOnLoadAttributes (390ms)
-				ProcessInitializeOnLoadMethodAttributes (90ms)
-				AfterProcessingInitializeOnLoad (22ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (18ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 21.46 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4060 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 25 unused Assets / (24.7 KB). Loaded Objects now: 4544.
-Memory consumption went from 155.1 MB to 155.1 MB.
-Total: 6.904800 ms (FindLiveObjects: 0.753400 ms CreateObjectMapping: 0.296900 ms MarkObjects: 5.286400 ms  DeleteObjects: 0.566200 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.018276 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\Admin\Documents\FPT\Kỳ 7\PRU211\PRU211-FroggerGameUnity2D\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\Admin\Documents\FPT\Kỳ 7\PRU211\PRU211-FroggerGameUnity2D\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 2.38 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  2.856 seconds
-Domain Reload Profiling:
-	ReloadAssembly (2857ms)
-		BeginReloadAssembly (493ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (21ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (145ms)
-		EndReloadAssembly (2054ms)
-			LoadAssemblies (308ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (1018ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (96ms)
-			SetupLoadedEditorAssemblies (650ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (30ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (3ms)
-				BeforeProcessingInitializeOnLoad (143ms)
-				ProcessInitializeOnLoadAttributes (375ms)
-				ProcessInitializeOnLoadMethodAttributes (78ms)
-				AfterProcessingInitializeOnLoad (21ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (19ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 8.48 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4060 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 25 unused Assets / (24.7 KB). Loaded Objects now: 4547.
-Memory consumption went from 155.1 MB to 155.1 MB.
-Total: 19.259600 ms (FindLiveObjects: 1.564300 ms CreateObjectMapping: 0.425800 ms MarkObjects: 17.178900 ms  DeleteObjects: 0.088000 ms)
-=======
-Refreshing native plugins compatible for Editor in 2.94 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4059 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 25 unused Assets / (24.7 KB). Loaded Objects now: 4545.
-Memory consumption went from 156.3 MB to 156.3 MB.
-Total: 3.524400 ms (FindLiveObjects: 0.327000 ms CreateObjectMapping: 0.214100 ms MarkObjects: 2.944000 ms  DeleteObjects: 0.038400 ms)
->>>>>>> main
->>>>>>> 1a6f14316e5e167d585cfeef403821d717539499
+Unloading 4107 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 25 unused Assets / (24.6 KB). Loaded Objects now: 4616.
+Memory consumption went from 157.2 MB to 157.2 MB.
+Total: 14.119100 ms (FindLiveObjects: 0.483300 ms CreateObjectMapping: 0.896300 ms MarkObjects: 12.685500 ms  DeleteObjects: 0.052100 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
