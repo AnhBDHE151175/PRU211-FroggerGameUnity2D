@@ -1,6 +1,7 @@
 
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
 
 public class Frogger : MonoBehaviour
@@ -9,10 +10,15 @@ public class Frogger : MonoBehaviour
     public Sprite idleSprite;
     public Sprite leapSprite;
     public Sprite deadSprite;
+
+    private Vector3 spawnPosition;
+    private float farthestRow;
+    private bool cooldown;
     // Start is called before the first frame update
     private void Awake()
     {
         spriteRenderer = GetComponent<SpriteRenderer>();
+        spawnPosition = transform.position;
     }
 
 
@@ -76,12 +82,15 @@ public class Frogger : MonoBehaviour
             StartCoroutine(Leap(desitination));
         }
     }
-   
+    
+
     private void Death()
     {
         transform.rotation = Quaternion.identity;
         spriteRenderer.sprite = deadSprite;
         enabled = false;
+        Invoke(nameof(Respawn), 1f);
+
     }
     private IEnumerator Leap(Vector3 destination)
     {
@@ -102,5 +111,16 @@ public class Frogger : MonoBehaviour
         transform.position = destination;
         spriteRenderer.sprite = idleSprite;
 
+    }
+    public void Respawn()
+    {
+
+        transform.rotation = Quaternion.identity;
+        transform.position = spawnPosition;
+
+        spriteRenderer.sprite = idleSprite;
+
+        gameObject.SetActive(true);
+        enabled = true;
     }
 }
