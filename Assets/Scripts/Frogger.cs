@@ -8,6 +8,7 @@ public class Frogger : MonoBehaviour
     private SpriteRenderer spriteRenderer;
     public Sprite idleSprite;
     public Sprite leapSprite;
+    public Sprite deadSprite;
     // Start is called before the first frame update
     private void Awake()
     {
@@ -46,7 +47,11 @@ public class Frogger : MonoBehaviour
         Vector3 desitination = transform.position + direction;
         Collider2D barrier = Physics2D.OverlapBox(desitination, Vector2.zero, 0f, LayerMask.GetMask("Barrier"));
         Collider2D platform = Physics2D.OverlapBox(desitination, Vector2.zero, 0f, LayerMask.GetMask("Platform"));
-        transform.position += direction;
+        Collider2D obstacle = Physics2D.OverlapBox(desitination, Vector2.zero, 0f, LayerMask.GetMask("Obstacle"));
+
+        Debug.Log(barrier);
+        Debug.Log(platform);
+
         if (barrier != null)
         {
             return;
@@ -61,9 +66,23 @@ public class Frogger : MonoBehaviour
             transform.SetParent(null);
         }
 
-        StartCoroutine(Leap(desitination));
+        if (obstacle != null)
+        {
+            transform.position = desitination;
+            Death();
+        }
+        else
+        {
+            StartCoroutine(Leap(desitination));
+        }
     }
    
+    private void Death()
+    {
+        transform.rotation = Quaternion.identity;
+        spriteRenderer.sprite = deadSprite;
+        enabled = false;
+    }
     private IEnumerator Leap(Vector3 destination)
     {
         Vector3 startPosition = transform.position;
