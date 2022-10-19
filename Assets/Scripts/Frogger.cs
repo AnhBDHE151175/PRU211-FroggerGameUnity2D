@@ -3,6 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using Unity.VisualScripting;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class Frogger : MonoBehaviour
 {
@@ -14,7 +15,13 @@ public class Frogger : MonoBehaviour
     private Vector3 spawnPosition;
     private float farthestRow;
     private bool cooldown;
-    // Start is called before the first frame update
+
+    public Text txtScore;
+
+    private void Start()
+    {
+        txtScore = GameObject.Find("TextScore").GetComponent<Text>();
+    }
     private void Awake()
     {
         spriteRenderer = GetComponent<SpriteRenderer>();
@@ -122,5 +129,17 @@ public class Frogger : MonoBehaviour
 
         gameObject.SetActive(true);
         enabled = true;
+    }
+
+    int score = 0;
+    private void OnTriggerEnter2D(Collider2D other)
+    {
+        bool hitCoin = other.gameObject.layer == LayerMask.NameToLayer("Coin");
+        if (enabled && hitCoin)
+        {
+            score += 1;
+            txtScore.text = "Score: " + score.ToString();
+            Destroy(other.gameObject);
+        }
     }
 }
