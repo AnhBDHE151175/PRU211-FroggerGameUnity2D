@@ -59,6 +59,7 @@
     <Compile Include="Assets\Scripts\Frogger.cs" />
     <Compile Include="Assets\Scripts\MoveCycle.cs" />
     <Compile Include="Assets\Scripts\GameManager.cs" />
+    <Compile Include="Assets\Scripts\LevelManager.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
