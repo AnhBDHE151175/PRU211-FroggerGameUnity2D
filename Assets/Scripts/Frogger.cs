@@ -93,10 +93,10 @@ public class Frogger : MonoBehaviour
 
     private void Death()
     {
+        StopAllCoroutines();
         transform.rotation = Quaternion.identity;
         spriteRenderer.sprite = deadSprite;
         enabled = false;
-        Invoke(nameof(Respawn), 1f);
 
     }
     private IEnumerator Leap(Vector3 destination)
@@ -121,13 +121,10 @@ public class Frogger : MonoBehaviour
     }
     public void Respawn()
     {
-
+        StopAllCoroutines();
         transform.rotation = Quaternion.identity;
         transform.position = spawnPosition;
-
         spriteRenderer.sprite = idleSprite;
-
-        gameObject.SetActive(true);
         enabled = true;
     }
 
