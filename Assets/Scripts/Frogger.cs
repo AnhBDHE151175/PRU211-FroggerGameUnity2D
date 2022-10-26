@@ -117,7 +117,6 @@ public class Frogger : MonoBehaviour
 
         transform.position = destination;
         spriteRenderer.sprite = idleSprite;
-
     }
     public void Respawn()
     {

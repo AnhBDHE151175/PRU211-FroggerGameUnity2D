@@ -57,8 +57,9 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Scripts\Frogger.cs" />
+    <Compile Include="Assets\Scripts\BombGenerator.cs" />
     <Compile Include="Assets\Scripts\MoveCycle.cs" />
-    <Compile Include="Assets\Scripts\BombControl.cs" />
+    <Compile Include="Assets\Scripts\BombNavigator.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
