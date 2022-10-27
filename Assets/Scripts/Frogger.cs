@@ -89,7 +89,7 @@ public class Frogger : MonoBehaviour
             StartCoroutine(Leap(desitination));
         }
     }
-    
+
 
     private void Death()
     {
@@ -97,7 +97,7 @@ public class Frogger : MonoBehaviour
         transform.rotation = Quaternion.identity;
         spriteRenderer.sprite = deadSprite;
         enabled = false;
-
+        Invoke(nameof(Respawn), 1f);
     }
     private IEnumerator Leap(Vector3 destination)
     {
