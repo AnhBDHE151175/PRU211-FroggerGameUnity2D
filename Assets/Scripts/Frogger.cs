@@ -28,8 +28,6 @@ public class Frogger : MonoBehaviour
         spawnPosition = transform.position;
     }
 
-
-    // Update is called once per frame
     void Update()
     {
         if (Input.GetKeyDown(KeyCode.W) || Input.GetKeyDown(KeyCode.UpArrow))
@@ -62,8 +60,8 @@ public class Frogger : MonoBehaviour
         Collider2D platform = Physics2D.OverlapBox(desitination, Vector2.zero, 0f, LayerMask.GetMask("Platform"));
         Collider2D obstacle = Physics2D.OverlapBox(desitination, Vector2.zero, 0f, LayerMask.GetMask("Obstacle"));
 
-        Debug.Log(barrier);
-        Debug.Log(platform);
+        //Debug.Log(barrier);
+        //Debug.Log(platform);
 
         if (barrier != null)
         {
@@ -91,7 +89,7 @@ public class Frogger : MonoBehaviour
     }
 
 
-    private void Death()
+    public void Death()
     {
         StopAllCoroutines();
         transform.rotation = Quaternion.identity;
@@ -132,6 +130,12 @@ public class Frogger : MonoBehaviour
     private void OnTriggerEnter2D(Collider2D other)
     {
         bool hitCoin = other.gameObject.layer == LayerMask.NameToLayer("Coin");
+        bool hitObstacle = other.gameObject.layer == LayerMask.NameToLayer("Obstacle");
+        bool onPlatform = transform.parent != null;
+        if (enabled && hitObstacle && !onPlatform)
+        {
+            Death();
+        }
         if (enabled && hitCoin)
         {
             score += 1;
