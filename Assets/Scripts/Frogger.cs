@@ -79,7 +79,7 @@ public class Frogger : MonoBehaviour
             transform.SetParent(null);
         }
 
-        if (obstacle != null)
+        if (obstacle != null && platform == null)
         {
             transform.position = desitination;
             Death();
@@ -91,7 +91,7 @@ public class Frogger : MonoBehaviour
     }
     
 
-    private void Death()
+    public void Death()
     {
         transform.rotation = Quaternion.identity;
         spriteRenderer.sprite = deadSprite;
@@ -134,12 +134,18 @@ public class Frogger : MonoBehaviour
     int score = 0;
     private void OnTriggerEnter2D(Collider2D other)
     {
+        bool hitObstacle = other.gameObject.layer == LayerMask.NameToLayer("Obstacle");
+        bool onPlatform = transform.parent != null;
         bool hitCoin = other.gameObject.layer == LayerMask.NameToLayer("Coin");
         if (enabled && hitCoin)
         {
             score += 1;
             txtScore.text = "Score: " + score.ToString();
             Destroy(other.gameObject);
+        }
+        if (enabled && hitObstacle && transform.parent == null)
+        {
+            Death();
         }
     }
 }
