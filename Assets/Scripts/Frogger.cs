@@ -134,7 +134,6 @@ public class Frogger : MonoBehaviour
         cooldown = false;
     }
 
-    int score = 0;
     private void OnTriggerEnter2D(Collider2D other)
     {
         bool hitCoin = other.gameObject.layer == LayerMask.NameToLayer("Coin");
@@ -146,8 +145,7 @@ public class Frogger : MonoBehaviour
         }
         if (enabled && hitCoin)
         {
-            score += 1;
-            txtScore.text = "Score: " + score.ToString();
+            FindObjectOfType<GameManager>().HitCoin();
             Destroy(other.gameObject);
         }
     }

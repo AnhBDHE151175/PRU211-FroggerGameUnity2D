@@ -959,7 +959,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -267, y: -198}
+  m_AnchoredPosition: {x: -256.6, y: -197.58}
   m_SizeDelta: {x: 160, y: 33.1999}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &314366055
@@ -1016,7 +1016,7 @@ GameObject:
   - component: {fileID: 337840719}
   - component: {fileID: 337840718}
   m_Layer: 5
-  m_Name: Text (Legacy)
+  m_Name: Lives
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1039,7 +1039,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 237, y: 199}
+  m_AnchoredPosition: {x: 252, y: 210}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &337840718
@@ -1987,7 +1987,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &710140450
 RectTransform:
   m_ObjectHideFlags: 0
@@ -3162,7 +3162,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2070911548277742404, guid: dd3bcf812e0e65541b0212b3672e0bf7, type: 3}
       propertyPath: m_IsTrigger
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7821139935908874112, guid: dd3bcf812e0e65541b0212b3672e0bf7, type: 3}
       propertyPath: m_RootOrder
@@ -3521,6 +3521,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e2ee4d714722a3b41ae33bc07f9a3f2e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  gameOverMenu: {fileID: 710140449}
+  timeText: {fileID: 1572193598}
+  livesText: {fileID: 337840718}
+  scoreText: {fileID: 314366055}
 --- !u!4 &1327327157
 Transform:
   m_ObjectHideFlags: 0
@@ -4280,7 +4284,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 1, y: 198}
+  m_AnchoredPosition: {x: 0, y: 210}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1572193598
@@ -4316,7 +4320,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'Time: 30'
+  m_Text: 30
 --- !u!222 &1572193599
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -4581,7 +4585,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 220, y: 199}
+  m_AnchoredPosition: {x: 238, y: 210}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1590070823
@@ -4722,10 +4726,10 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0.013897002}
+  m_Offset: {x: 0, y: 0}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -4736,7 +4740,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1, y: 0.8166442}
+  m_Size: {x: 19.199999, y: 38.81698}
   m_EdgeRadius: 0
 --- !u!1001 &1670106155
 PrefabInstance:
@@ -4825,7 +4829,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2070911548277742404, guid: dd3bcf812e0e65541b0212b3672e0bf7, type: 3}
       propertyPath: m_IsTrigger
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7821139935908874112, guid: dd3bcf812e0e65541b0212b3672e0bf7, type: 3}
       propertyPath: m_RootOrder
@@ -6067,7 +6071,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2070911548277742404, guid: dd3bcf812e0e65541b0212b3672e0bf7, type: 3}
       propertyPath: m_IsTrigger
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7821139935908874112, guid: dd3bcf812e0e65541b0212b3672e0bf7, type: 3}
       propertyPath: m_RootOrder
@@ -6356,6 +6360,10 @@ PrefabInstance:
     - target: {fileID: 7213027623792068218, guid: 5f3ca19b4db536c4bb931c740fc046fe, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7213027623792068219, guid: 5f3ca19b4db536c4bb931c740fc046fe, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5f3ca19b4db536c4bb931c740fc046fe, type: 3}
