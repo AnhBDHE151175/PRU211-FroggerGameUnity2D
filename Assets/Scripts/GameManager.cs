@@ -13,7 +13,7 @@ public class GameManager : MonoBehaviour
     public Text scoreText;
 
     private int lives;
-    private int score;
+    public int score { get; set; }
     private int time;
 
     private float respawnTime;
@@ -114,6 +114,13 @@ public class GameManager : MonoBehaviour
         SetScore(score + 10);
     }
 
+
+    public void HitCoin()
+    {
+        SetScore(score + 20);
+    }
+
+
     public void HomeOccupied()
     {
         frogger.gameObject.SetActive(false);
@@ -144,7 +151,7 @@ public class GameManager : MonoBehaviour
         return true;
     }
 
-    private void SetScore(int score)
+    public void SetScore(int score)
     {
         this.score = score;
         scoreText.text = score.ToString();
