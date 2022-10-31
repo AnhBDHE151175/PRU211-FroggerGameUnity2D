@@ -55,3 +55,16 @@ The following packages were added:
 The following packages were updated:
   com.unity.test-framework from version 1.1.31 to 1.1.33
   com.unity.timeline from version 1.6.4 to 1.7.1
+
+=== Tue Nov  1 01:17:52 2022
+
+Packages were changed.
+Update Mode: updateDependencies
+
+The following packages were added:
+  com.unity.2d.sprite@1.0.0
+  com.unity.2d.tilemap@1.0.0
+  com.unity.ads@3.7.5
+  com.unity.analytics@3.6.12
+  com.unity.purchasing@4.4.1
+  com.unity.xr.legacyinputhelpers@2.1.10
