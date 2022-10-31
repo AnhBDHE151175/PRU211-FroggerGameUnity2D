@@ -6,11 +6,11 @@ public class BombGenerator : MonoBehaviour
 {
     public GameObject Bomb;
     public GameObject Frog;
-    public float minBoomTime = 1;
-    public float maxBoomTime = 2;
+    public float minBoomTime = 4;
+    public float maxBoomTime = 7;
 
-    private float lastBoomTime = 0;
-    private float boomTime = 0;
+    private float lastBoomTime = 1;
+    private float boomTime = 2;
 
 
     private Animator animator;

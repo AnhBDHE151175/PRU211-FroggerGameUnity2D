@@ -5,8 +5,8 @@ using UnityEngine;
 public class BombNavigator : MonoBehaviour
 {
     public Vector3 target;
-    public float moveSpeed = 5;
-    public float destroyTime = 2;
+    public float moveSpeed = 2;
+    public float destroyTime = 1;
 
     public GameObject explode;
     // Start is called before the first frame update
