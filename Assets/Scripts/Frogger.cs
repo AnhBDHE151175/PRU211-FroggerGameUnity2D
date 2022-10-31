@@ -28,8 +28,6 @@ public class Frogger : MonoBehaviour
         spawnPosition = transform.position;
     }
 
-
-    // Update is called once per frame
     void Update()
     {
         if (Input.GetKeyDown(KeyCode.W) || Input.GetKeyDown(KeyCode.UpArrow))
@@ -57,20 +55,19 @@ public class Frogger : MonoBehaviour
 
     private void Move(Vector3 direction)
     {
-        Vector3 desitination = transform.position + direction;
-        Collider2D barrier = Physics2D.OverlapBox(desitination, Vector2.zero, 0f, LayerMask.GetMask("Barrier"));
-        Collider2D platform = Physics2D.OverlapBox(desitination, Vector2.zero, 0f, LayerMask.GetMask("Platform"));
-        Collider2D obstacle = Physics2D.OverlapBox(desitination, Vector2.zero, 0f, LayerMask.GetMask("Obstacle"));
-
-        Debug.Log(barrier);
-        Debug.Log(platform);
-
+        if (cooldown)
+        {
+            return;
+        }
+        Vector3 destination = transform.position + direction;
+        Collider2D platform = Physics2D.OverlapBox(destination, Vector2.zero, 0f, LayerMask.GetMask("Platform"));
+        Collider2D obstacle = Physics2D.OverlapBox(destination, Vector2.zero, 0f, LayerMask.GetMask("Obstacle"));
+        Collider2D barrier = Physics2D.OverlapBox(destination, Vector2.zero, 0f, LayerMask.GetMask("Barrier"));
         if (barrier != null)
         {
             return;
         }
-
-        if(platform != null)
+        if (platform != null)
         {
             transform.SetParent(platform.transform);
         }
@@ -78,26 +75,32 @@ public class Frogger : MonoBehaviour
         {
             transform.SetParent(null);
         }
-
-        if (obstacle != null)
+        if (obstacle != null && platform == null)
         {
-            transform.position = desitination;
+            transform.position = destination;
             Death();
         }
         else
         {
-            StartCoroutine(Leap(desitination));
+            if (destination.y > farthestRow)
+            {
+                farthestRow = destination.y;
+                FindObjectOfType<GameManager>().AdvancedRow();
+            }
+            StopAllCoroutines();
+            StartCoroutine(Leap(destination));
         }
     }
-    
 
-    private void Death()
+
+    public void Death()
     {
+        
+        StopAllCoroutines();
+        enabled = false;
         transform.rotation = Quaternion.identity;
         spriteRenderer.sprite = deadSprite;
-        enabled = false;
-        Invoke(nameof(Respawn), 1f);
-
+        FindObjectOfType<GameManager>().Died();
     }
     private IEnumerator Leap(Vector3 destination)
     {
@@ -120,24 +123,28 @@ public class Frogger : MonoBehaviour
     }
     public void Respawn()
     {
-
+        StopAllCoroutines();
         transform.rotation = Quaternion.identity;
         transform.position = spawnPosition;
-
+        farthestRow = spawnPosition.y;
         spriteRenderer.sprite = idleSprite;
-
         gameObject.SetActive(true);
         enabled = true;
+        cooldown = false;
     }
 
-    int score = 0;
     private void OnTriggerEnter2D(Collider2D other)
     {
         bool hitCoin = other.gameObject.layer == LayerMask.NameToLayer("Coin");
+        bool hitObstacle = other.gameObject.layer == LayerMask.NameToLayer("Obstacle");
+        bool onPlatform = transform.parent != null;
+        if (enabled && hitObstacle && !onPlatform)
+        {
+            Death();
+        }
         if (enabled && hitCoin)
         {
-            score += 1;
-            txtScore.text = "Score: " + score.ToString();
+            FindObjectOfType<GameManager>().HitCoin();
             Destroy(other.gameObject);
         }
     }
