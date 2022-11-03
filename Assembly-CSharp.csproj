@@ -56,16 +56,16 @@
     <Analyzer Include="C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Scripts\PillarShoot.cs" />
     <Compile Include="Assets\Scripts\BombNavigator.cs" />
     <Compile Include="Assets\Scripts\LazorControl.cs" />
+    <Compile Include="Assets\Scripts\BoomController.cs" />
     <Compile Include="Assets\Scripts\GameManager.cs" />
     <Compile Include="Assets\Scripts\Frogger.cs" />
     <Compile Include="Assets\Scripts\Home.cs" />
     <Compile Include="Assets\Scripts\BombGenerator.cs" />
     <Compile Include="Assets\Scripts\MoveCycle.cs" />
     <Compile Include="Assets\Scripts\LevelManager.cs" />
-    <Compile Include="Assets\Scripts\PillarShoot.cs" />
-    <Compile Include="Assets\Scripts\BoomController.cs" />
     <Compile Include="Assets\Scripts\EnemyMovement.cs" />
   </ItemGroup>
   <ItemGroup>

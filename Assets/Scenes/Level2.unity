@@ -507,7 +507,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5184131166585823198, guid: 0498e1453a4e09e46922572d76dc204f, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5184131166585823199, guid: 0498e1453a4e09e46922572d76dc204f, type: 3}
       propertyPath: m_Size.x
@@ -572,7 +572,7 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: -0.95, y: -0.09}
@@ -1289,7 +1289,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_Sprite: {fileID: 1753856364, guid: e785671c579d9b04c9b43de06546f69e, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -1582,7 +1582,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5184131166585823198, guid: 0498e1453a4e09e46922572d76dc204f, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5184131166585823199, guid: 0498e1453a4e09e46922572d76dc204f, type: 3}
       propertyPath: m_Size.y
