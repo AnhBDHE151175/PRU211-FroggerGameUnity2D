@@ -58,11 +58,14 @@
   <ItemGroup>
     <Compile Include="Assets\Scripts\PillarShoot.cs" />
     <Compile Include="Assets\Scripts\BombNavigator.cs" />
+    <Compile Include="Assets\Scripts\Shooting.cs" />
+    <Compile Include="Assets\Scripts\Enemy.cs" />
     <Compile Include="Assets\Scripts\LazorControl.cs" />
     <Compile Include="Assets\Scripts\BoomController.cs" />
     <Compile Include="Assets\Scripts\GameManager.cs" />
     <Compile Include="Assets\Scripts\Frogger.cs" />
     <Compile Include="Assets\Scripts\Home.cs" />
+    <Compile Include="Assets\Scripts\PlayerControl.cs" />
     <Compile Include="Assets\Scripts\RandomHide.cs" />
     <Compile Include="Assets\Scripts\BombGenerator.cs" />
     <Compile Include="Assets\Scripts\MoveCycle.cs" />
