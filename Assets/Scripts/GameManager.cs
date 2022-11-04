@@ -1,5 +1,8 @@
+using System;
 using System.Collections;
 using UnityEngine;
+using UnityEngine.Analytics;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 public class GameManager : MonoBehaviour
@@ -18,6 +21,11 @@ public class GameManager : MonoBehaviour
 
     private float respawnTime;
 
+    public GameOverScreen gameOverScreen;
+    public WinGameScreen WinGameScreen;
+    int maxPlatform = 0;
+
+   
     private void Awake()
     {
         Application.targetFrameRate = 60;
@@ -81,6 +89,7 @@ public class GameManager : MonoBehaviour
             Invoke(nameof(Respawn), 1f);
         } else {
             Invoke(nameof(GameOver), 1f);
+            Application.Quit();
         }
     }
 
@@ -91,6 +100,9 @@ public class GameManager : MonoBehaviour
 
         StopAllCoroutines();
         StartCoroutine(CheckForPlayAgain());
+        gameOverScreen.Setup(maxPlatform);
+
+
     }
 
     private IEnumerator CheckForPlayAgain()
@@ -130,6 +142,7 @@ public class GameManager : MonoBehaviour
 
         if (Cleared())
         {
+            WinGameScreen.Setup(maxPlatform);
             SetLives(lives + 1);
             SetScore(score + 1000);
             Invoke(nameof(NewLevel), 1f);

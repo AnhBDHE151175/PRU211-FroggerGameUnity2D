@@ -5947,6 +5947,7 @@ MonoBehaviour:
   timeText: {fileID: 943337797}
   livesText: {fileID: 450916451}
   scoreText: {fileID: 283747848}
+  gameOverScreen: {fileID: 0}
 --- !u!4 &1823804292
 Transform:
   m_ObjectHideFlags: 0
