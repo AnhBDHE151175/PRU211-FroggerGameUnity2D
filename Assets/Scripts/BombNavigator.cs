@@ -19,7 +19,8 @@ public class BombNavigator : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        transform.Translate((transform.position - target) * moveSpeed * Time.deltaTime * -1);
+        var destination = (transform.position - target) * moveSpeed * Time.deltaTime * -1;
+        transform.Translate(destination);
     }
 
 

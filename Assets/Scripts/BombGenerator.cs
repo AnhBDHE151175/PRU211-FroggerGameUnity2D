@@ -10,7 +10,7 @@ public class BombGenerator : MonoBehaviour
     public float maxBoomTime = 7;
 
     private float lastBoomTime = 1;
-    private float boomTime = 2;
+    private float boomTime = 1;
 
 
     private Animator animator;

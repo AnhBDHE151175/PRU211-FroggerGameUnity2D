@@ -2,10 +2,8 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class LazorControl : MonoBehaviour
+public class AutoChase : MonoBehaviour
 {
-    private LineRenderer lineRenderer;
-    public Transform Laser;
     // Start is called before the first frame update
     void Start()
     {
