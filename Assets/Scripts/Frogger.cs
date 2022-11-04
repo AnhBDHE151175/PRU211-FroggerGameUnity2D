@@ -18,6 +18,10 @@ public class Frogger : MonoBehaviour
 
     public Text txtScore;
 
+    public AudioSource aus;
+    public AudioClip moveSound;
+    public AudioClip loseSound;
+
     private void Start()
     {
         txtScore = GameObject.Find("TextScore").GetComponent<Text>();
@@ -34,21 +38,37 @@ public class Frogger : MonoBehaviour
         {
             transform.rotation = Quaternion.Euler(0f, 0f, 0f);
             Move(Vector3.up);
+            if(aus && moveSound)
+            {
+                aus.PlayOneShot(moveSound);
+            }
         }
         else if (Input.GetKeyDown(KeyCode.S) || Input.GetKeyDown(KeyCode.DownArrow))
         {
             transform.rotation = Quaternion.Euler(0f, 0f, 180f);
             Move(Vector3.down);
+            if (aus && moveSound)
+            {
+                aus.PlayOneShot(moveSound);
+            }
         }
         else if (Input.GetKeyDown(KeyCode.A) || Input.GetKeyDown(KeyCode.LeftArrow))
         {
             transform.rotation = Quaternion.Euler(0f, 0f, 90f);
             Move(Vector3.left);
+            if (aus && moveSound)
+            {
+                aus.PlayOneShot(moveSound);
+            }
         }
         else if (Input.GetKeyDown(KeyCode.D) || Input.GetKeyDown(KeyCode.RightArrow))
         {
             transform.rotation = Quaternion.Euler(0f, 0f, -90f);
             Move(Vector3.right);
+            if (aus && moveSound)
+            {
+                aus.PlayOneShot(moveSound);
+            }
         }
 
     }
@@ -101,6 +121,10 @@ public class Frogger : MonoBehaviour
         transform.rotation = Quaternion.identity;
         spriteRenderer.sprite = deadSprite;
         FindObjectOfType<GameManager>().Died();
+        if (aus && moveSound)
+        {
+            aus.PlayOneShot(loseSound);
+        }
     }
     private IEnumerator Leap(Vector3 destination)
     {
