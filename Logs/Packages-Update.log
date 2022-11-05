@@ -68,3 +68,12 @@ The following packages were added:
   com.unity.analytics@3.6.12
   com.unity.purchasing@4.4.1
   com.unity.xr.legacyinputhelpers@2.1.10
+
+=== Sat Nov  5 08:23:30 2022
+
+Packages were changed.
+Update Mode: updateDependencies
+
+The following packages were updated:
+  com.unity.ads from version 3.7.5 to 4.3.0
+  com.unity.analytics from version 3.6.12 to 3.8.1

@@ -60,7 +60,6 @@ public class GameManager : MonoBehaviour
     private void Respawn()
     {
         frogger.Respawn();
-
         StopAllCoroutines();
         StartCoroutine(Timer(30));
     }
@@ -136,7 +135,6 @@ public class GameManager : MonoBehaviour
     public void HomeOccupied()
     {
         frogger.gameObject.SetActive(false);
-
         int bonusPoints = time * 20;
         SetScore(score + bonusPoints + 50);
 
