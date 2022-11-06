@@ -366,7 +366,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &61393740
 Transform:
   m_ObjectHideFlags: 0
@@ -905,6 +905,22 @@ PrefabInstance:
     - target: {fileID: 7213027623792068218, guid: 5f3ca19b4db536c4bb931c740fc046fe, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7213027623792068219, guid: 5f3ca19b4db536c4bb931c740fc046fe, type: 3}
+      propertyPath: m_Size.x
+      value: 0.3822603
+      objectReference: {fileID: 0}
+    - target: {fileID: 7213027623792068219, guid: 5f3ca19b4db536c4bb931c740fc046fe, type: 3}
+      propertyPath: m_Size.y
+      value: 0.38226128
+      objectReference: {fileID: 0}
+    - target: {fileID: 7213027623792068219, guid: 5f3ca19b4db536c4bb931c740fc046fe, type: 3}
+      propertyPath: m_Offset.x
+      value: 0.0028752238
+      objectReference: {fileID: 0}
+    - target: {fileID: 7213027623792068219, guid: 5f3ca19b4db536c4bb931c740fc046fe, type: 3}
+      propertyPath: m_Offset.y
+      value: 0.002875328
       objectReference: {fileID: 0}
     - target: {fileID: 7213027623792068219, guid: 5f3ca19b4db536c4bb931c740fc046fe, type: 3}
       propertyPath: m_IsTrigger
@@ -2005,7 +2021,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.19607843, g: 0.8392157, b: 0.19607843, a: 1}
+  m_Color: {r: 0.9331172, g: 1, b: 0.08962262, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -2410,6 +2426,55 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4b4c4b7786a88054b8517558b5719cdb, type: 3}
+--- !u!1 &670783725
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 670783727}
+  - component: {fileID: 670783726}
+  m_Layer: 0
+  m_Name: Spawner
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &670783726
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 670783725}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3979212a7c5fb1c43b36951ac1221e81, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  asteroidPrefab: {fileID: 6719333479673692374, guid: 64073c3b090a90547a5343b3ee38f8b0, type: 3}
+  spawnDistance: 12
+  spawnRate: 1
+  amountPerSpawn: 1
+  trajectoryVariance: 15
+--- !u!4 &670783727
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 670783725}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.01, y: 1.31, z: -0.02167387}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 25
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &693351404 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 6990194581919180470, guid: c18e4e5681da4eb489df090d662091f8, type: 3}
@@ -3020,7 +3085,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 240}
+  m_AnchoredPosition: {x: 0, y: 200}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &943337795
@@ -3059,7 +3124,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.8392157, g: 0.88235295, b: 0.76862746, a: 1}
+  m_Color: {r: 0.7101122, g: 0.9716981, b: 0.0779192, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -5948,6 +6013,7 @@ MonoBehaviour:
   livesText: {fileID: 450916451}
   scoreText: {fileID: 283747848}
   gameOverScreen: {fileID: 0}
+  WinGameScreen: {fileID: 0}
 --- !u!4 &1823804292
 Transform:
   m_ObjectHideFlags: 0
