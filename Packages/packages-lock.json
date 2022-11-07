@@ -1,11 +1,19 @@
 {
   "dependencies": {
     "com.unity.2d.animation": {
+<<<<<<< HEAD
       "version": "9.0.0-pre.3",
       "depth": 1,
       "source": "registry",
       "dependencies": {
         "com.unity.2d.common": "8.0.0-pre.2",
+=======
+      "version": "7.0.7",
+      "depth": 1,
+      "source": "registry",
+      "dependencies": {
+        "com.unity.2d.common": "6.0.4",
+>>>>>>> 2c46d7d941be4562a92625781bdf22a057a4ea62
         "com.unity.2d.sprite": "1.0.0",
         "com.unity.collections": "1.1.0",
         "com.unity.modules.animation": "1.0.0",
@@ -14,7 +22,11 @@
       "url": "https://packages.unity.com"
     },
     "com.unity.2d.common": {
+<<<<<<< HEAD
       "version": "8.0.0-pre.2",
+=======
+      "version": "6.0.4",
+>>>>>>> 2c46d7d941be4562a92625781bdf22a057a4ea62
       "depth": 2,
       "source": "registry",
       "dependencies": {
@@ -34,12 +46,21 @@
       "url": "https://packages.unity.com"
     },
     "com.unity.2d.psdimporter": {
+<<<<<<< HEAD
       "version": "8.0.0-pre.3",
       "depth": 1,
       "source": "registry",
       "dependencies": {
         "com.unity.2d.animation": "9.0.0-pre.3",
         "com.unity.2d.common": "8.0.0-pre.2",
+=======
+      "version": "6.0.5",
+      "depth": 1,
+      "source": "registry",
+      "dependencies": {
+        "com.unity.2d.animation": "7.0.7",
+        "com.unity.2d.common": "6.0.4",
+>>>>>>> 2c46d7d941be4562a92625781bdf22a057a4ea62
         "com.unity.2d.sprite": "1.0.0"
       },
       "url": "https://packages.unity.com"
@@ -51,12 +72,21 @@
       "dependencies": {}
     },
     "com.unity.2d.spriteshape": {
+<<<<<<< HEAD
       "version": "9.0.0-pre.1",
+=======
+      "version": "7.0.6",
+>>>>>>> 2c46d7d941be4562a92625781bdf22a057a4ea62
       "depth": 1,
       "source": "registry",
       "dependencies": {
         "com.unity.mathematics": "1.1.0",
+<<<<<<< HEAD
         "com.unity.2d.common": "8.0.0-pre.1",
+=======
+        "com.unity.2d.common": "6.0.4",
+        "com.unity.2d.path": "5.0.2",
+>>>>>>> 2c46d7d941be4562a92625781bdf22a057a4ea62
         "com.unity.modules.physics2d": "1.0.0"
       },
       "url": "https://packages.unity.com"
@@ -150,11 +180,19 @@
       "depth": 0,
       "source": "builtin",
       "dependencies": {
+<<<<<<< HEAD
         "com.unity.2d.animation": "9.0.0-pre.3",
         "com.unity.2d.pixel-perfect": "5.0.1",
         "com.unity.2d.psdimporter": "8.0.0-pre.3",
         "com.unity.2d.sprite": "1.0.0",
         "com.unity.2d.spriteshape": "9.0.0-pre.1",
+=======
+        "com.unity.2d.animation": "7.0.7",
+        "com.unity.2d.pixel-perfect": "5.0.1",
+        "com.unity.2d.psdimporter": "6.0.5",
+        "com.unity.2d.sprite": "1.0.0",
+        "com.unity.2d.spriteshape": "7.0.6",
+>>>>>>> 2c46d7d941be4562a92625781bdf22a057a4ea62
         "com.unity.2d.tilemap": "1.0.0",
         "com.unity.2d.tilemap.extras": "3.0.2"
       }
@@ -214,7 +252,11 @@
       "url": "https://packages.unity.com"
     },
     "com.unity.services.analytics": {
+<<<<<<< HEAD
       "version": "4.0.1",
+=======
+      "version": "4.2.0",
+>>>>>>> 2c46d7d941be4562a92625781bdf22a057a4ea62
       "depth": 1,
       "source": "registry",
       "dependencies": {

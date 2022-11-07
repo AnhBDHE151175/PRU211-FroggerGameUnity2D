@@ -84,6 +84,7 @@ public class Frogger : MonoBehaviour
         Collider2D obstacle = Physics2D.OverlapBox(destination, Vector2.zero, 0f, LayerMask.GetMask("Obstacle"));
         Collider2D barrier = Physics2D.OverlapBox(destination, Vector2.zero, 0f, LayerMask.GetMask("Barrier"));
         Collider2D asteroid = Physics2D.OverlapBox(destination, Vector2.zero, 0f, LayerMask.GetMask("Asteroid"));
+       
         if (barrier != null && platform!=null)
         {
             return;
