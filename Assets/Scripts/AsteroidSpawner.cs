@@ -9,38 +9,26 @@ public class AsteroidSpawner : MonoBehaviour
     public int amountPerSpawn = 1;
     [Range(0f, 45f)]
     public float trajectoryVariance = 15f;
-    // Start is called before the first frame update
     void Start()
     {
         InvokeRepeating(nameof(Spawn), spawnRate, spawnRate);
 
     }
 
-    // Update is called once per frame
     public void Spawn()
     {
         for (int i = 0; i < amountPerSpawn; i++)
         {
-            // Choose a random direction from the center of the spawner and
-            // spawn the asteroid a distance away
             Vector3 spawnPoint = Random.insideUnitCircle.normalized * spawnDistance;
 
-            // Offset the spawn point by the position of the spawner so its
-            // relative to the spawner location
-            spawnPoint += transform.position;
 
-            // Calculate a random variance in the asteroid's rotation which will
-            // cause its trajectory to change
             float variance = Random.Range(-trajectoryVariance, trajectoryVariance);
             Quaternion rotation = Quaternion.AngleAxis(variance, Vector3.forward);
-
-            // Create the new asteroid by cloning the prefab and set a random
-            // size within the range
             Asteroid asteroid = Instantiate(asteroidPrefab, spawnPoint, rotation);
+            Vector2 trajectory = rotation * -Random.insideUnitCircle.normalized;
             asteroid.size = Random.Range(asteroid.minSize, asteroid.maxSize);
 
-            // Set the trajectory to move in the direction of the spawner
-            Vector2 trajectory = rotation * -Random.insideUnitCircle.normalized;
+
             asteroid.SetTrajectory(trajectory);
         }
     }
