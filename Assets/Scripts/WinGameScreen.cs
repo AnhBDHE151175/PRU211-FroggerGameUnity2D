@@ -16,6 +16,18 @@ public class WinGameScreen : MonoBehaviour
     {
         SceneManager.LoadScene("MainScene");
     }
+    public void PlayAgainButtonLevel2()
+    {
+        SceneManager.LoadScene("Level2");
+    }
+    public void PlayAgainButtonKVN()
+    {
+        SceneManager.LoadScene("Kvan_Scene");
+    }
+    public void PlayAgainButtonDA()
+    {
+        SceneManager.LoadScene("DucAnhScenes");
+    }
     public void BackToMenuButton()
     {
         SceneManager.LoadScene("Menu");

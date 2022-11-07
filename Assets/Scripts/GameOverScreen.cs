@@ -31,4 +31,18 @@ public class GameOverScreen : MonoBehaviour
     {
         SceneManager.LoadScene("Menu");
     }
+
+    public void PlayAgainButtonLevel2()
+    {
+        SceneManager.LoadScene("Level2");
+    }
+
+    public void PlayAgainButtonKVN()
+    {
+        SceneManager.LoadScene("Kvan_Scene");
+    }
+    public void PlayAgainButtonDA()
+    {
+        SceneManager.LoadScene("DucAnhScenes");
+    }
 }
