@@ -306,11 +306,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3468568719794862242, guid: 6b86df937ee6ccf4bb8ba2ecc15e9d30, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0.4486
+      value: 0.52
       objectReference: {fileID: 0}
     - target: {fileID: 3468568719794862242, guid: 6b86df937ee6ccf4bb8ba2ecc15e9d30, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1.0479
+      value: 1.1
       objectReference: {fileID: 0}
     - target: {fileID: 3468568719794862242, guid: 6b86df937ee6ccf4bb8ba2ecc15e9d30, type: 3}
       propertyPath: m_LocalPosition.z
@@ -346,7 +346,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3468568719794862243, guid: 6b86df937ee6ccf4bb8ba2ecc15e9d30, type: 3}
       propertyPath: m_Size.x
-      value: 25.23678
+      value: 28.828814
       objectReference: {fileID: 0}
     - target: {fileID: 3468568719794862243, guid: 6b86df937ee6ccf4bb8ba2ecc15e9d30, type: 3}
       propertyPath: m_Size.y
@@ -624,8 +624,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 100364103}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.0528, y: -2.8651, z: 0}
-  m_LocalScale: {x: 25.281988, y: 7.376258, z: 1}
+  m_LocalPosition: {x: 0.0022, y: -2.8651, z: 0}
+  m_LocalScale: {x: 28.82374, y: 7.376258, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -2054,8 +2054,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 368947206}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.0506, y: 5.2979, z: 0}
-  m_LocalScale: {x: 25.272165, y: 7.745974, z: 1}
+  m_LocalPosition: {x: -0.0252, y: 5.2979, z: 0}
+  m_LocalScale: {x: 28.965796, y: 7.745974, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -2694,7 +2694,7 @@ MonoBehaviour:
   asteroidPrefab: {fileID: 6719333479673692374, guid: 64073c3b090a90547a5343b3ee38f8b0, type: 3}
   spawnDistance: 12
   spawnRate: 1
-  amountPerSpawn: 1
+  amountPerSpawn: 3
   trajectoryVariance: 15
 --- !u!4 &670783727
 Transform:
@@ -4550,7 +4550,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1322648299}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.48, y: -5.84, z: 0}
+  m_LocalPosition: {x: 0.4294, y: -5.84, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -4603,7 +4603,7 @@ SpriteRenderer:
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 2
-  m_Size: {x: 25.319645, y: 1.0330955}
+  m_Size: {x: 28.759905, y: 1.0330955}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
