@@ -19,6 +19,7 @@ public class Buffalo : MonoBehaviour
 
     public AudioSource aus;
     public Text txtScore;
+
     public AudioClip moveSound;
     public AudioClip loseSound;
 
@@ -105,7 +106,7 @@ public class Buffalo : MonoBehaviour
             if (destination.y > farthestRow)
             {
                 farthestRow = destination.y;
-                FindObjectOfType<GameManager>().AdvancedRow();
+                FindObjectOfType<GameManagerForBuffalo>().AdvancedRow();
             }
             StopAllCoroutines();
             StartCoroutine(Leap(destination));
@@ -120,7 +121,7 @@ public class Buffalo : MonoBehaviour
         transform.rotation = Quaternion.identity;
         spriteRenderer.sprite = deadSprite;
         enabled = false;
-        Invoke(nameof(Respawn), 1f);
+        FindObjectOfType<GameManagerForBuffalo>().Died();
     }
     private IEnumerator Leap(Vector3 destination)
     {
@@ -146,6 +147,7 @@ public class Buffalo : MonoBehaviour
         StopAllCoroutines();
         transform.rotation = Quaternion.identity;
         transform.position = spawnPosition;
+        farthestRow = spawnPosition.y;
         spriteRenderer.sprite = idleSprite;
         gameObject.SetActive(true);
         enabled = true;
@@ -162,7 +164,7 @@ public class Buffalo : MonoBehaviour
         }
         if (enabled && hitCoin)
         {
-            FindObjectOfType<GameManager>().HitCoin();
+            FindObjectOfType<GameManagerForBuffalo>().HitCoin();
             Destroy(other.gameObject);
         }
     }

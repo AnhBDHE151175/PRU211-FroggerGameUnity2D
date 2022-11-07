@@ -23,9 +23,10 @@ public class HomeBuffalo : MonoBehaviour
         if (other.tag == "Player")
         {
             enabled = true;
-            Buffalo bu = other.GetComponent<Buffalo>();
-            bu.gameObject.SetActive(false);
-            bu.Invoke(nameof(bu.Respawn), 1f);
+            //Buffalo bu = other.GetComponent<Buffalo>();
+            //bu.gameObject.SetActive(false);
+            //bu.Invoke(nameof(bu.Respawn), 1f);
+            FindObjectOfType<GameManagerForBuffalo>().HomeOccupied();
         }
     }
 

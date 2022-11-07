@@ -98,13 +98,13 @@ public class GameManager : MonoBehaviour
         gameOverMenu.SetActive(true);
 
         StopAllCoroutines();
-        StartCoroutine(CheckForPlayAgain());
+        StartCoroutine(PlayAgain());
         gameOverScreen.Setup(maxPlatform);
 
 
     }
 
-    private IEnumerator CheckForPlayAgain()
+    private IEnumerator PlayAgain()
     {
         bool playAgain = false;
 
