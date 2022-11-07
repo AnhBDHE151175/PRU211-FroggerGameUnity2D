@@ -23,8 +23,7 @@ public class AsteroidSpawner : MonoBehaviour
         {
             // Choose a random direction from the center of the spawner and
             // spawn the asteroid a distance away
-            Vector2 spawnDirection = Random.insideUnitCircle.normalized;
-            Vector3 spawnPoint = spawnDirection * spawnDistance;
+            Vector3 spawnPoint = Random.insideUnitCircle.normalized * spawnDistance;
 
             // Offset the spawn point by the position of the spawner so its
             // relative to the spawner location
@@ -41,7 +40,7 @@ public class AsteroidSpawner : MonoBehaviour
             asteroid.size = Random.Range(asteroid.minSize, asteroid.maxSize);
 
             // Set the trajectory to move in the direction of the spawner
-            Vector2 trajectory = rotation * -spawnDirection;
+            Vector2 trajectory = rotation * -Random.insideUnitCircle.normalized;
             asteroid.SetTrajectory(trajectory);
         }
     }
