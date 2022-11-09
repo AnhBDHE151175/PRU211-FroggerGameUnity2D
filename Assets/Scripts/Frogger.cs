@@ -85,6 +85,9 @@ public class Frogger : MonoBehaviour
         Collider2D barrier = Physics2D.OverlapBox(destination, Vector2.zero, 0f, LayerMask.GetMask("Barrier"));
         Collider2D asteroid = Physics2D.OverlapBox(destination, Vector2.zero, 0f, LayerMask.GetMask("Asteroid"));
        
+        if(barrier != null){
+            return;
+        }
         if (barrier != null && platform!=null)
         {
             return;
@@ -171,6 +174,11 @@ public class Frogger : MonoBehaviour
         bool hitObstacle = other.gameObject.layer == LayerMask.NameToLayer("Obstacle");
         bool onPlatform = transform.parent != null;
         if (enabled && hitObstacle && !onPlatform)
+        {
+            Death();
+        }
+
+        if (enabled && hitObstacle && onPlatform)
         {
             Death();
         }
